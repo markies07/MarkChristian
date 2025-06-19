@@ -1,6 +1,11 @@
 import React, { useEffect, useState } from 'react';
 
 function NavBar() {
+
+  const handleScroll = (id) => {
+    const section = document.getElementById(id.toLowerCase());
+    if (section) section.scrollIntoView({ behavior: 'smooth' });
+  };
   
   return (
     <div
@@ -9,6 +14,7 @@ function NavBar() {
         {['ABOUT', 'SKILLS', 'WORKS', 'CONTACT'].map((item) => (
           <p
             key={item}
+            onClick={() => handleScroll(item)}
             className="cursor-pointer relative px-2 py-1 after:content-[''] after:absolute after:left-0 after:right-0 after:bottom-1/2 after:h-[2px] after:scale-x-0 hover:after:scale-x-100 after:font-medium after:bg-white after:origin-left after:transition-transform after:duration-300">
             {item}
           </p>
