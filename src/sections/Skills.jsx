@@ -32,7 +32,7 @@ function Skills() {
 
                 <div className='grid grid-cols-1 w-full max sm:grid-cols-2 lg:grid-cols-3 max-w-[60rem] xl:max-w-[70rem] gap-5 sm:gap-7'>
                     {/* FRONTEND */}
-                    <div className='border-[3px] w-full gap-3 border-white flex flex-col justify-center items-center py-6'>
+                    <div className='border-[3px] w-full gap-3 rounded-sm border-white flex flex-col justify-center items-center py-6'>
                         <img className='w-20' src={frontend} alt="" />
                         
                         <p className='font-medium'>Front-end Development</p>
@@ -66,7 +66,7 @@ function Skills() {
                     </div>
 
                     {/* BACKEND */}
-                    <div className='border-[3px] w-full gap-3 border-white flex flex-col justify-center items-center py-6'>
+                    <div className='border-[3px] w-full gap-3 rounded-sm border-white flex flex-col justify-center items-center py-6'>
                         <img className='w-20' src={backend} alt="" />
                         
                         <p className='font-medium'>Back-end Development</p>
@@ -86,7 +86,7 @@ function Skills() {
                     </div>
 
                     {/* DATABASE */}
-                    <div className='border-[3px] w-full gap-3 border-white flex flex-col justify-center items-center py-6'>
+                    <div className='border-[3px] w-full gap-3 rounded-sm border-white flex flex-col justify-center items-center py-6'>
                         <img className='w-20' src={database} alt="" />
                         
                         <p className='font-medium'>Database Management</p>
@@ -106,7 +106,7 @@ function Skills() {
                     </div>
 
                     {/* VERSION */}
-                    <div className='border-[3px] w-full gap-3 border-white flex flex-col justify-center items-center py-6'>
+                    <div className='border-[3px] w-full gap-3 rounded-sm border-white flex flex-col justify-center items-center py-6'>
                         <img className='w-20' src={version} alt="" />
                         
                         <p className='font-medium'>Version Control</p>
@@ -125,7 +125,7 @@ function Skills() {
                     </div>
 
                     {/* RESPONSIVE */}
-                    <div className='border-[3px] w-full gap-3 border-white flex flex-col justify-center items-center py-6'>
+                    <div className='border-[3px] w-full gap-3 rounded-sm border-white flex flex-col justify-center items-center py-6'>
                         <img className='w-20' src={responsive} alt="" />
                         
                         <p className='font-medium'>Responsive Design</p>
@@ -149,7 +149,7 @@ function Skills() {
                     </div>
 
                     {/* UI/UX */}
-                    <div className='border-[3px] w-full gap-3 border-white flex flex-col justify-center items-center py-6'>
+                    <div className='border-[3px] w-full gap-3 rounded-sm border-white flex flex-col justify-center items-center py-6'>
                         <img className='w-[5.5rem]' src={uiux} alt="" />
                         
                         <p className='font-medium'>UI/UX Design</p>
