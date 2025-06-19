@@ -9,15 +9,15 @@ function About() {
             <h1 className='text-title text-2xl lg:text-3xl font-bold text-center'>ABOUT ME</h1>
 
             {/* INTRODUCTION */}
-            <div className='py-5 relative font-impact flex flex-col justify-center'>
-                <h1 className='text-center text-gray text-[20vw] lg:text-[15vw] xl:text-[12vw] 2xl:text-[10vw] text leading-[0.85] pt-3'>MARK</h1>
-                <h1 className='text-center text-gray text-[20vw] lg:text-[15vw] xl:text-[12vw] 2xl:text-[10vw] text leading-[0.85] pb-[33vw] sm:pb-[35vw] lg:pb-[25vw] xl:pb-[21vw] 2xl:pb-[18vw]'>CHRISTIAN</h1>
+            <div className='py-5 relative font-anton flex flex-col justify-center'>
+                <h1 className='text-center text-gray text-[22vw] lg:text-[17vw] xl:text-[14vw] 2xl:text-[12vw] text leading-[0.90] pt-3'>MARK</h1>
+                <h1 className='text-center text-gray text-[22vw] lg:text-[17vw] xl:text-[14vw] 2xl:text-[12vw] text leading-[0.90] pb-[33vw] sm:pb-[35vw] lg:pb-[25vw] xl:pb-[22vw] 2xl:pb-[19vw]'>CHRISTIAN</h1>
                 {/* PICTURES */}
-                <div className='absolute bottom-[20vw] lg:bottom-[13vw] xl:bottom-[11vw] 2xl:bottom-[9vw] w-full flex justify-center'>
+                <div className='absolute bottom-[21vw] lg:bottom-[15vw] xl:bottom-[13vw] 2xl:bottom-[11vw] w-full flex justify-center'>
                     <img className='w-[90vw] lg:w-[70vw] xl:w-[60vw] 2xl:w-[50vw]' src={pics} alt="" />
                 </div>
 
-                <h1 className='text-center text-title text-[20vw] lg:text-[15vw] xl:text-[12vw] 2xl:text-[10vw] leading-[0.85]'>NAVAL</h1>
+                <h1 className='text-center text-title text-[22vw] lg:text-[17vw] xl:text-[14vw] 2xl:text-[12vw] leading-[0.85]'>NAVAL</h1>
 
             </div>
 
