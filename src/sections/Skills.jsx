@@ -23,14 +23,20 @@ import dribbble from '../assets/dribbble.svg'
 function Skills() {
     return (
         <div id='skills'  className='bg-white z-20 pt-16'>
-            <div style={{ boxShadow: '0 -4px 15px rgba(0,0,0,0.2)' }} className='relative bg-gray rounded-t-4xl py-8 px-3  font-poppins text-white'>
+            <div style={{ boxShadow: '0 -4px 15px rgba(0,0,0,0.2)' }} className='relative bg-gray rounded-t-[3rem] py-8 px-3  font-poppins text-white'>
                 {/* TITLE */}
                 <h1 className='text-title text-2xl lg:text-3xl font-bold text-center'>MY SKILLS</h1>
 
                 {/* SKILLS */}
-                <div className='px-5 py-10 flex justify-center'>
+                <div className='px-5 py-10 flex flex-col items-center justify-center'>
 
-                    <div className='grid grid-cols-1 w-full max sm:grid-cols-2 lg:grid-cols-3 max-w-[60rem] xl:max-w-[70rem] gap-5 sm:gap-7'>
+                    {/* DESCRIPTION */}
+                    <div className='w-full sm:w-[90%] lg:w-[70%] xl:w-[60%] text-center mx-auto text-white pb-7'>
+                        <p className='text-sm leading-6 sm:text-base font-poppins'>I specialize in full-stack web development with strong proficiency in both front-end and back-end technologies.</p>
+                        <p className='text-sm leading-6 sm:text-base font-poppins pt-5'>From crafting responsive user interfaces to building robust server-side logic and managing databases, I utilize modern tools to deliver complete, user-friendly web solutions.</p>
+                    </div>
+
+                    <div className='grid grid-cols-1 w-full max sm:grid-cols-2 lg:grid-cols-3 max-w-[60rem] xl:max-w-[70rem] gap-5 sm:gap-4'>
                         {/* FRONTEND */}
                         <div className='border-[3px] w-full gap-3 rounded-sm border-white flex flex-col justify-center items-center py-6'>
                             <img className='w-20' src={frontend} alt="" />
@@ -171,6 +177,7 @@ function Skills() {
                                 </div>
                             </div>
                         </div>
+
                     </div>
 
                 </div>
