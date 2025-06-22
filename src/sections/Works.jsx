@@ -14,7 +14,7 @@ function Works() {
                 <h1 className='text-title text-2xl lg:text-3xl font-bold text-center'>SELECTED WORKS</h1>
 
                 {/* WORKS */}
-                <div className='flex flex-col py-10 items-center'>
+                <div className='flex flex-col pt-10 items-center'>
 
                     {/* HOMEPAWS */}
                     <div className='w-[90%] lg:mr-40 xl:mr-52 relative sm:max-w-[30rem] md:max-w-[37rem] lg:max-w-[40rem] xl:max-w-[47rem] flex flex-col md:flex-row items-center'>

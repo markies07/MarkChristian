@@ -2,8 +2,8 @@ import React from 'react'
 
 function Contact() {
     return (
-        <div id='skills'  className='bg-white z-20 pt-16'>
-            <div style={{ boxShadow: '0 -4px 15px rgba(0,0,0,0.2)' }} className='relative bg-gray rounded-t-[3rem] pt-8 px-3  font-poppins text-white'>
+        <div id='contact'  className='bg-white z-20 pt-16'>
+            <div style={{ boxShadow: '0 -4px 15px rgba(0,0,0,0.2)' }} className='relative bg-gray rounded-t-[3rem] pt-8 px-3 sm:pb-10 font-poppins text-white'>
                 {/* TITLE */}
                 <h1 className='text-title text-2xl lg:text-3xl font-bold text-center'>CONTACT ME</h1>
 
@@ -15,7 +15,7 @@ function Contact() {
                     </button>
 
                     {/* LETS WORK */}
-                    <div className='font-anton flex flex-col sm:order-1 py-10'>
+                    <div className='font-anton flex flex-col sm:order-1 pt-10'>
                         <h1 className='text-center sm:text-start text-[5.5rem] sm:text-[8rem] xl:text-[10rem] xl:leading-[9rem] sm:leading-[7.3rem] leading-[5.2rem]'>LET'S</h1>
                         <div className='relative'>
                             <h1 className='text-center sm:text-start text-[5.5rem] sm:text-[8rem] xl:text-[10rem] xl:leading-[9rem] sm:leading-[7.3rem] leading-[5.2rem]'>WORK</h1>

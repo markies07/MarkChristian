@@ -1,3 +1,4 @@
+import Footer from "./components/Footer"
 import NavBar from "./components/NavBar"
 import ScrollUp from "./components/ScrollUp"
 import About from "./sections/About"
@@ -17,6 +18,7 @@ function App() {
       <Skills />
       <Works />
       <Contact />
+      <Footer />
     </div>
   )
 }
