@@ -1,8 +1,10 @@
 import NavBar from "./components/NavBar"
 import ScrollUp from "./components/ScrollUp"
 import About from "./sections/About"
+import Contact from "./sections/Contact"
 import FrontPage from "./sections/FrontPage"
 import Skills from "./sections/Skills"
+import Works from "./sections/Works"
 
 
 function App() {
@@ -13,6 +15,8 @@ function App() {
       <FrontPage />
       <About />
       <Skills />
+      <Works />
+      <Contact />
     </div>
   )
 }

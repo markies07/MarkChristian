@@ -37,5 +37,18 @@
     --color-title: #E05F5F;
     --color-white: #EAEAEA;
     --color-gray: #1D1D1D;
+
+    --animate-float: float 4s ease-in-out infinite;
+    @keyframes float {
+        0%,
+        100% {
+        transform: translateY(0);
+        }
+        50% {
+        transform: translateY(7px);
+        }
+    }
+
+
 }
 

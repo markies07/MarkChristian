@@ -19,11 +19,14 @@ import figma from '../assets/figma.svg'
 import uiux from '../assets/uiux.svg'
 import framer from '../assets/framer.svg'
 import dribbble from '../assets/dribbble.svg'
+import graphic from '../assets/graphic.svg'
+import video from '../assets/video.svg'
+import art from '../assets/art.svg'
 
 function Skills() {
     return (
         <div id='skills'  className='bg-white z-20 pt-16'>
-            <div style={{ boxShadow: '0 -4px 15px rgba(0,0,0,0.2)' }} className='relative bg-gray rounded-t-[3rem] py-8 px-3  font-poppins text-white'>
+            <div style={{ boxShadow: '0 -4px 15px rgba(0,0,0,0.2)' }} className='relative bg-gray rounded-t-[3rem] pt-8 px-3  font-poppins text-white'>
                 {/* TITLE */}
                 <h1 className='text-title text-2xl lg:text-3xl font-bold text-center'>MY SKILLS</h1>
 
@@ -32,13 +35,13 @@ function Skills() {
 
                     {/* DESCRIPTION */}
                     <div className='w-full sm:w-[90%] lg:w-[70%] xl:w-[60%] text-center mx-auto text-white pb-7'>
-                        <p className='text-sm leading-6 sm:text-base font-poppins'>I specialize in full-stack web development with strong proficiency in both front-end and back-end technologies.</p>
-                        <p className='text-sm leading-6 sm:text-base font-poppins pt-5'>From crafting responsive user interfaces to building robust server-side logic and managing databases, I utilize modern tools to deliver complete, user-friendly web solutions.</p>
+                        <p className='text-sm leading-6 font-light sm:text-base font-poppins'>I specialize in full-stack web development with strong proficiency in both front-end and back-end technologies.</p>
+                        <p className='text-sm leading-6 font-light sm:text-base font-poppins pt-5'>From crafting responsive user interfaces to building robust server-side logic and managing databases, I utilize modern tools to deliver complete, user-friendly web solutions.</p>
                     </div>
 
-                    <div className='grid grid-cols-1 w-full max sm:grid-cols-2 lg:grid-cols-3 max-w-[60rem] xl:max-w-[70rem] gap-5 sm:gap-4'>
+                    <div className='grid grid-cols-1 w-full max sm:grid-cols-2 sm:max-w-[35rem] lg:grid-cols-3 max-w-[60rem] lg:max-w-[60rem] 2xl:max-w-[70rem] gap-5 sm:gap-4'>
                         {/* FRONTEND */}
-                        <div className='border-[3px] w-full gap-3 rounded-sm border-white flex flex-col justify-center items-center py-6'>
+                        <div className=' w-full gap-3 flex flex-col justify-center items-center py-6'>
                             <img className='w-20' src={frontend} alt="" />
                             
                             <p className='font-medium'>Front-end Development</p>
@@ -72,7 +75,7 @@ function Skills() {
                         </div>
 
                         {/* BACKEND */}
-                        <div className='border-[3px] w-full gap-3 rounded-sm border-white flex flex-col justify-center items-center py-6'>
+                        <div className=' w-full gap-3 flex flex-col justify-center items-center py-6'>
                             <img className='w-20' src={backend} alt="" />
                             
                             <p className='font-medium'>Back-end Development</p>
@@ -92,8 +95,8 @@ function Skills() {
                         </div>
 
                         {/* DATABASE */}
-                        <div className='border-[3px] w-full gap-3 rounded-sm border-white flex flex-col justify-center items-center py-6'>
-                            <img className='w-20' src={database} alt="" />
+                        <div className=' w-full gap-3 flex flex-col justify-center items-center py-6'>
+                            <img className='w-[4.8rem]' src={database} alt="" />
                             
                             <p className='font-medium'>Database Management</p>
 
@@ -112,7 +115,7 @@ function Skills() {
                         </div>
 
                         {/* VERSION */}
-                        <div className='border-[3px] w-full gap-3 rounded-sm border-white flex flex-col justify-center items-center py-6'>
+                        <div className=' w-full gap-3 flex flex-col justify-center items-center py-6'>
                             <img className='w-20' src={version} alt="" />
                             
                             <p className='font-medium'>Version Control</p>
@@ -131,7 +134,7 @@ function Skills() {
                         </div>
 
                         {/* RESPONSIVE */}
-                        <div className='border-[3px] w-full gap-3 rounded-sm border-white flex flex-col justify-center items-center py-6'>
+                        <div className=' w-full gap-3 flex flex-col justify-center items-center py-6'>
                             <img className='w-20' src={responsive} alt="" />
                             
                             <p className='font-medium'>Responsive Design</p>
@@ -155,7 +158,7 @@ function Skills() {
                         </div>
 
                         {/* UI/UX */}
-                        <div className='border-[3px] w-full gap-3 rounded-sm border-white flex flex-col justify-center items-center py-6'>
+                        <div className=' w-full gap-3 flex flex-col justify-center items-center py-6'>
                             <img className='w-[5.5rem]' src={uiux} alt="" />
                             
                             <p className='font-medium'>UI/UX Design</p>
@@ -177,7 +180,38 @@ function Skills() {
                                 </div>
                             </div>
                         </div>
+                    </div>
 
+                    {/* OTHER SKILLS */}
+                    <div className='w-full pt-14 sm:pt-20'>
+                        <h1 className='text-white text-2xl font-bold text-center pb-3'>Other skills...</h1>
+                        <div className=' flex justify-center'>
+                            <div className='grid grid-cols-1 w-full sm:grid-cols-3 sm:max-w-[35rem] max-w-[60rem]  gap-5 sm:gap-4'>
+
+                                {/* GRAPHIC DESIGN */}
+                                <div className=' w-full gap-3 flex flex-col justify-center items-center py-6'>
+                                    <img className='w-[4.5rem] pb-1' src={graphic} alt="" />
+                                    
+                                    <p className='font-medium'>Graphic Design</p>
+                                </div>
+
+                                {/* VIDEO EDITING */}
+                                <div className=' w-full gap-3 flex flex-col justify-center items-center py-6'>
+                                    <img className='w-[4.5rem] pb-1' src={video} alt="" />
+                                    
+                                    <p className='font-medium'>Video Editing</p>
+                                </div>
+
+                                {/* DIGITAL ART */}
+                                <div className=' w-full  gap-3 flex flex-col justify-center items-center py-6'>
+                                    <img className='w-[4.5rem] pb-1' src={art} alt="" />
+                                    
+                                    <p className='font-medium'>Digital Art</p>
+                                </div>
+
+                            </div>
+
+                        </div>
                     </div>
 
                 </div>
