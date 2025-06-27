@@ -191,7 +191,7 @@ function FrontPage() {
             </div>
 
             {/* Custom CSS for load animations */}
-            <style jsx>{`
+            <style>{`
                 @keyframes lightFadeIn {
                     0% {
                         opacity: 0;
