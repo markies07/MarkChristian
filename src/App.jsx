@@ -6,7 +6,8 @@ import Contact from "./sections/Contact"
 import FrontPage from "./sections/FrontPage"
 import Skills from "./sections/Skills"
 import Works from "./sections/Works"
-
+import { ToastContainer } from "react-toastify"
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
       <Works />
       <Contact />
       <Footer />
+      <ToastContainer />
     </div>
   )
 }
