@@ -39,6 +39,8 @@
     --color-gray: #1D1D1D;
 
     --animate-float: float 4s ease-in-out infinite;
+    --animate-infinite-scroll: infinite-scroll 200s linear infinite;
+
     @keyframes float {
         0%,
         100% {
@@ -46,6 +48,15 @@
         }
         50% {
         transform: translateY(7px);
+        }
+    }
+
+    @keyframes infinite-scroll {
+        0% {
+        transform: translateX(0);
+        }
+        100% {
+        transform: translateX(calc(-50% - 20px));
         }
     }
 

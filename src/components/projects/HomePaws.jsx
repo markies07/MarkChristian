@@ -51,11 +51,11 @@ function HomePaws({onClose}) {
                                     <img key={s} src={s} alt="" />
                                 ))}
                             </Carousel>
-                        </div> 
+                        </div>
                     </div>
 
                     <p className="mt-1 text-sm sm:text-base font-poppins text-gray-600">
-                    It is a pet adoption web app with built-in social features. Users can browse or post adoptable pets, filter by type, receive notifications, and interact through a community feed — all in one responsive platform.
+                        HomePaws is a pet adoption web app with built-in social features. Users can browse or post adoptable pets, filter by type, receive notifications, and interact through a community feed — all in one responsive platform.
                     </p>
 
                     <div className="flex justify-center gap-3 mt-7">

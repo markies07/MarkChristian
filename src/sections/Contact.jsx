@@ -22,14 +22,44 @@ function Contact() {
                     {/* LETS WORK */}
                     <div className='font-anton flex flex-col sm:order-1 pt-10'>
                         <h1 className='text-center sm:text-start text-[5.5rem] sm:text-[8rem] xl:text-[10rem] xl:leading-[9rem] sm:leading-[7.3rem] leading-[5.2rem]'>LET'S</h1>
+
                         <div className='relative'>
                             <h1 className='text-center sm:text-start text-[5.5rem] sm:text-[8rem] xl:text-[10rem] xl:leading-[9rem] sm:leading-[7.3rem] leading-[5.2rem]'>WORK</h1>
-                            <div className='absolute top-0 left-0 w-full h-full flex items-center justify-center sm:justify-start'>
-                                <p className='bg-title px-3 sm:px-10 md:px-12 xl:px-20 xl:text-lg font-poppins font-extrabold text-center text-black'>AVAILABLE FOR WORK</p>
+
+                            {/* Scrolling Bar */}
+                            <div className='absolute top-0 flex left-0 w-full h-full items-center justify-center sm:justify-start'>
+                                <div className='bg-title w-52 sm:w-[17rem] lg:w-[21.5rem] flex overflow-hidden'>
+                                    <div className='flex animate-infinite-scroll whitespace-nowrap'>
+                                    {/* Repeat the string twice to simulate infinite scroll */}
+                                    <p className='pr-2 xl:text-lg font-poppins font-extrabold text-black'>
+                                        {Array(10).fill('AVAILABLE FOR WORK •  ').join('')}
+                                    </p>
+                                    <p className='pr-2 xl:text-lg font-poppins font-extrabold text-black'>
+                                        {Array(10).fill('AVAILABLE FOR WORK •  ').join('')}
+                                    </p>
+                                    <p className='pr-2 xl:text-lg font-poppins font-extrabold text-black'>
+                                        {Array(10).fill('AVAILABLE FOR WORK •  ').join('')}
+                                    </p>
+                                    <p className='pr-2 xl:text-lg font-poppins font-extrabold text-black'>
+                                        {Array(10).fill('AVAILABLE FOR WORK •  ').join('')}
+                                    </p>
+                                    <p className='pr-2 xl:text-lg font-poppins font-extrabold text-black'>
+                                        {Array(10).fill('AVAILABLE FOR WORK •  ').join('')}
+                                    </p>
+                                    <p className='pr-2 xl:text-lg font-poppins font-extrabold text-black'>
+                                        {Array(10).fill('AVAILABLE FOR WORK •  ').join('')}
+                                    </p>
+                                    <p className='pr-2 xl:text-lg font-poppins font-extrabold text-black'>
+                                        {Array(10).fill('AVAILABLE FOR WORK •  ').join('')}
+                                    </p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
+
                         <h1 className='text-center sm:text-start text-[5.5rem] sm:text-[8rem] xl:text-[10rem] xl:leading-[9rem] sm:leading-[7.3rem] leading-[5.2rem]'>TOGETHER</h1>
                     </div>
+
                 </div>
             </div>
             <AnimatePresence>
